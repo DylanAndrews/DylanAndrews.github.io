@@ -1,12 +1,13 @@
+* {
+  font-family: verdana;
+}
 body {
-  background-color: red;
+  background-color:black ;
 }
 h1  {
-  font-family: verdana;
   color: white
 }
 h2 {
-  font-family: verdana;
   color: white
 }
 h4 {
@@ -15,10 +16,15 @@ h4 {
   float: left;
   color: white
 }
-}
+
 p {
-  font-family: verdana;
-  color: white}
+ text-align: center
+ color: white;
+}
+ section {
+  color: white;
+ }
+
 ul> li > a {
   position: relative;
   padding:0.2em 1em;
