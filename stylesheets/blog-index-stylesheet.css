@@ -42,16 +42,16 @@ div {
 div:hover{
 background:white;
 }
-#one {border-color: red;
+#one {border-color: black;
 
 
 }
 
-#two {border-color: green;
+#two {border-color: black;
 
 }
 
-#three {border-color: blue;
+#three {border-color: black;
 
 }
 
