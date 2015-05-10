@@ -14,7 +14,7 @@ ul> li > a {
   position: relative;
   padding:0.2em 1em;
 margin:0;
-  display: inline;
+  display: inline-block;
   float:right;
   color: white;
   font-family: verdana;

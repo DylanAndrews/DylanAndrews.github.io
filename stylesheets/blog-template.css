@@ -1,25 +1,21 @@
 * {
-  font-family: verdana;
+ color: white;
 }
 body {
-  background-color:black ;
-}
-h1  {
-  color: white
+  background-color:black;
 }
 h2 {
-  color: white
+  font-family: garamond;
+  float: left;
 }
 h4 {
-  margin: 0px 50px 10px 5px;
-  font-family: verdana;
-  float: left;
-  color: white
+  font-family: garamond;
+ float: left;
 }
-
 p {
- text-align: center
+  font-size: 19px;
  color: white;
+ font-family: garamond;
 }
  section {
   color: white;
