@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<head>
+  <title>Week 3 Technical Blog</title>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="../stylesheets/blog-template.css"/>
+   </head>
+   <nav>
+   <ul>
+            <li><a href="http://dylanandrews.github.io/">Work</a></li>
+            <li><a href="http://dylanandrews.github.io/">About</a></li>
+            <li><a href="blogindex.html">Blog</a></tr>
+            <li><a href="http://dylanandrews.github.io/">Contact</a></li>
+        </ul>
+</nav>
+</br>
+<main>
+    <h1>Hashes vs. Arrays</h1>
+    <h2></h2>
+    <h4>May 15, 2015</h4>
+  <section>
+<br></br>
+<br></br>
+
+<p>
+  If I were to quickly compare hashes and arrays I would say the following. Hashes are unordered data holders assigned to a variable and arrays are ordered data holders assigned to a variable. Arrays contain an ordered collection of values, and hashes contain an unordered collection of key-value pairs. This may be a bit confusing, though, so lets unpack it a bit and look at some examples.
+</p>
+<p>
+In an array, every element can be accessed with its index number.
+</p>
+  <code>demo_array = [1, 2, 3, 4, 5]<br></br>
+print demo_array[3]
+  </code>
+<p>
+In this example, we are printing out the third index of the array(assigned to the variable demo_array), which would be 4. The reason it wouldn't print 3, which is a reasonable expectation, is that the first element gets an index of 0. The elements of a hash, which are unordered, cannot be accessed in this way.
+    </p>
+    <p>
+As stated earlier, hashes contain an unordered collection of key-value pairs. This is what they look like.
+</p>
+  <code>
+my_hash = { "name" => "Dylan",<br></br>
+  "age" => 27,<br></br>
+  "foot_size" => 11<br></br>
+}<br></br>
+puts my_hash["age"]
+ </code>
+<p>
+  In this example, "age" is the key and 27 in the value, and we are printing the value(27) by accessing the key "age".To be cleart the key is being accessed with the puts my_hash["age'] at the end. Just remember, the order of these key-value pairs is absolutely arbitrary and unimportant.
+    </p>
+    <p>
+I hope all of this helps! Please let me know if you are still confused.
+    </p>
+  </section>
+</main>
