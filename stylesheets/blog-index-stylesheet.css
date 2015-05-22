@@ -37,29 +37,7 @@ div {
   height: 100px;
   width: 80%;
   border-radius: 20px;
+  border-color: black;
 }
 div:hover{
-background:white;
-}
-#one {border-color: black;
-
-
-}
-
-#two {border-color: black;
-
-}
-
-#three {border-color: black;
-
-}
-
-#four {border-color: black;
-
-}
-#five {border-color: black;
-
-}
-#six {border-color: black;
-
-}
+background:black;
