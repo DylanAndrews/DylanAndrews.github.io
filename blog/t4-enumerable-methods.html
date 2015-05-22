@@ -32,7 +32,7 @@ Here's an example.
 {1=>[1, 5, 9, 13], 2=>[2, 6, 10, 14], 3=>[3, 7, 11], 0=>[4, 8, 12]}
   </code>
 <p>
-Lets unpack this a bit, because the last paragraph is by no means easy reading. Running %4 on any integer will give you the remainder of that number after dividing it by 4. For example, the remainder of 14/4 is 2, so 14 % 4 = 2. When the block ran itself on every integer from 1 to 14 it made all of the resulting remainders keys in the hash. As you can see, 2 is a key in the hash, and that's because 2 % 4, 6 % 4, 10 % 4, and 14 % 4 all equal 2. Furthermore, 2, 6, 10, and 14 make up the array, which is the value that corresponds to the key 2.
+Lets unpack this a bit, because the last paragraph is by no means easy reading. Running %4 on any integer will give you the remainder of that number after dividing it by 4. For example, the remainder of 14/4 is 2, so 14 % 4 = 2. When the block ran itself on every integer from 1 to 14 it made all of the resulting remainders keys in the hash. As you can see, 2 is a key in the hash, and that's because 2 % 4, 6 % 4, 10 % 4, and 14 % 4 all equal 2. Furthermore, 2, 6, 10, and 14 are the values (placed in an array) that corresponds to the key 2.
     </p>
     <p>
 I hope that helps. Before checking out, take a look at how group_by can by run on strings.
