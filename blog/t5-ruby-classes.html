@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <title>Week 5 Technical Blog</title>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="../stylesheets/blog-template.css"/>
+   </head>
+   <nav>
+   <ul>
+            <li><a href="http://dylanandrews.github.io/">Work</a></li>
+            <li><a href="http://dylanandrews.github.io/">About</a></li>
+            <li><a href="blogindex.html">Blog</a></tr>
+            <li><a href="http://dylanandrews.github.io/">Contact</a></li>
+        </ul>
+</nav>
+</br>
+<main>
+    <h1>The Power of Classes</h1>
+    <h2></h2>
+    <h4>May 28, 2015</h4>
+  <section>
+<br></br>
+<br></br>
+
+<p>
+Classes allow us to group methods together and act as templates for similar objects. Without classes, our code would not be scalable, and processing large amounts of data would be far too labor intensive. For example, if we need to process information about thousands of people, without classes we would have to write methods for each of those people to get their information. The solution to this problem would be creating a person class that runs every person through the same methods. Lets put this into practice.
+<br></br>
+<img src="../blog/photos/Classes1.png">
+  <br></br>
+What I've done here is create a Person class and defined an initialize method within that class. From now on, every new instance of the Person class will run this initialization method. This makes sense, because we will want to know the name, age, and weight of every person. The initialize method is made up of instance variables that are marked with the @ sign. This simply makes them easy to recognize. Instance variables, unlike local variables, can be accessed by any methods that we make in the Person class, and this is very handy. Now lets take it a little further. We're going to add a method to the person class, and then create and new instance of the class.
+<br></br>
+<img src="../blog/photos/Classes2.png">
+  <br></br>
+As you can see, we have added a profile method to the Person class that puts a string to the console that provides a person's information. We also created a new instance of the Person class called "dylan" that passes three parameters to the initialize method. This makes all of the instance variables inside of the initialize method equal the parameters I passed to it. The next thing I did was run the profile method on the dylan class, and that returned a string with the instance variables sprinkled by way of string interpolation. Here's what it outputted.
+<br></br>
+<img src="../blog/photos/Classes3.png">
+  <br></br>
+I hope this helps shed some light on the power of classes. If anything seems off or if you have any comments please let me know.
+</p>
+  </section>
+</main>
