@@ -1,3 +1,4 @@
+
 body {
   background-image: url("http://www.yosemitepark.com/Images/home-img-01.jpg");
 }
@@ -7,13 +8,16 @@ h1  {
   float: left;
   color: white
 }
-p{
+h3{
+  padding-left: 10px;
   font-family: verdana;
-  color: #808080}
+  width: 30%;
+  color: white}
 ul> li > a {
+  padding-top: 10px;
   position: relative;
   padding:0.2em 1em;
-margin:0;
+  margin:0;
   display: inline-block;
   float:right;
   color: white;
@@ -58,3 +62,4 @@ background:black;
 #four {border-color: black;
 
 }
+
