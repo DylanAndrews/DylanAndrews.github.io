@@ -41,25 +41,9 @@ div {
   height: 300px;
   width: 80%;
   border-radius: 20px;
+  border-color: black;
 
 }
 div:hover{
 background:black;
 }
-#one {border-color: black;
-
-
-}
-
-#two {border-color: black;
-
-}
-
-#three {border-color: black;
-
-}
-
-#four {border-color: black;
-
-}
-
