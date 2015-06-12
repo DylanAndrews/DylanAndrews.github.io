@@ -1,12 +1,16 @@
 
 body {
   background-image: url("http://www.yosemitepark.com/Images/home-img-01.jpg");
+ /*background-color:#828E9E;*/
 }
 h1  {
   margin: 0px 50px 10px 5px;
   font-family: verdana;
   float: left;
   color: white
+}
+header {
+/*background-color: #730504*/
 }
 h3{
   padding-left: 10px;

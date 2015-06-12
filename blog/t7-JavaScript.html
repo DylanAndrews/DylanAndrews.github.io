@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+  <title>Week 6 Technical Blog</title>
+  <meta charset="UTF-8">
+   <link rel="stylesheet" href="../stylesheets/blog-template.css"/>
+   </head>
+   <nav>
+   <ul>
+            <li><a href="http://dylanandrews.github.io/">Work</a></li>
+            <li><a href="http://dylanandrews.github.io/">About</a></li>
+            <li><a href="blogindex.html">Blog</a></tr>
+            <li><a href="http://dylanandrews.github.io/">Contact</a></li>
+            <li><a href="../projects/pindex.html">Projects</a></li>
+        </ul>
+</nav>
+</br>
+<main>
+    <h1>Looping in Javascript and Ruby</h1>
+    <h2></h2>
+    <h3>June 11, 2015</h3>
+  <section>
+<br></br>
+<br></br>
+<!-- <div id="header"> -->
+<p>
+Thus far, except for a few sessions with Javascript in Codecademy a few months ago, my coding education has been limited to Ruby. After only a few days with Javascript, I am beginning to miss ruby for it’s simplicity and elegance. However, I am also beginning to see that the bare bones nature of Javascript, once mastered, can be liberating. To illustrate some of the fundamental differences between these two languages, lets look at some examples of looping.
+<br></br>
+<b>Javascript</b>
+<br></br>
+<img src="../blog/photos/jscriptloop.png">
+<br></br>
+<b>Ruby</b>
+<br></br>
+<img src="../blog/photos/rubyloop.png">
+  <br></br>
+Both of these examples are aiming to do the same thing, which is to iterate through the strings in the array and print out the ones whose length is evenly divisible by three. In this case, the strings "yes" and "givers" fit this criteria and will therefore printed to the console. What's different is the ways in which these languages go about achieving this goal. With Ruby, which has far more built in methods, we can use the each method to tell it to iterate through the array. There is no each method in Javascript, so every time you want do some sort of iteration you need to write out a for loop. This part of the for loop <code>(var i = 0; i < words.length; i ++)</code> is the exact same thing as the each method in Ruby, and while having to write all of this out may seem oddly labor intensive, it actually allows us to specify the way in which we want to iterate. For example, we could set i to equal 1 by doing this<code>var i = 1</code> and have it count up by 4 by doing this <code>i += 4</code>. While this is not necessary for this loop, there are definitely times where this ability to customize comes in handy. In Ruby, each is built in, so if you want to iterate in another way you have to use a different method.
+<br></br>
+As you can see, there are also some syntactical differences between these two examples. For one, the arrays are defined differently. Javascript requires that we put <code>var</code> before we define any variable, and in Ruby we can simply type the name of the variable. Also, in order to print to the console in Javascript we use console.log, but in Ruby we can use p, print, puts, or return(which we use depends on our needs). One similarity between these two examples is the use of the length method. While Ruby certainly has more built in methods, it does share some of the same ones as Javascript, and lenghth is one of them.
+<br></br>
+I hope that was helpful. Please let me know if you have any questions.
+</p>
+
+  </section>
+</main>
