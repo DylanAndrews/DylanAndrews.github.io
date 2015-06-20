@@ -18,7 +18,7 @@ h3{
   width: 30%;
   color: white}
 ul> li > a {
-  padding-top: 10px;
+  padding-top: 5px;
   position: relative;
   padding:0.2em 1em;
   margin:0;
@@ -46,7 +46,11 @@ div {
   width: 80%;
   border-radius: 20px;
   border-color: black;
-
+  text-align: center;
+  font-size: 30px;
+}
+a href {
+  margin-top: 10px;
 }
 div:hover{
 background:black;

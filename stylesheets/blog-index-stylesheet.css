@@ -12,11 +12,15 @@ header{
   color: white
 }
 /*h1  {
-  margin: 0px 50px 10px 5px;
-  font-family: verdana;
-  float: left;
-  color: white
+  color: black ;
 }*/
+a {
+  color: white;
+  text-decoration: none;
+}
+article: p:visited {
+ color: red;
+}
 /*h3{
   padding-left: 10px;
   font-family: verdana;
