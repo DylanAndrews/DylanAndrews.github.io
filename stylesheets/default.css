@@ -1,8 +1,62 @@
-
+ * {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    font-family: verdana;
+    background-size: cover;
+}
 body {
   background-image: url("http://www.yosemitepark.com/Images/home-img-01.jpg");
- /*background-color:#828E9E;*/
 }
+#header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    background: #F4F4F7;
+   /* color: black;*/
+    /*border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;*/
+    z-index: 100;
+  /*  opacity: 100;*/
+}
+#left {
+  float: left;
+}
+#right {
+  float: right;
+  padding: 10px;
+}
+nav ul {
+  margin-top: 20px;
+}
+nav ul li {
+  display: inline;
+  margin: 30px;
+  font-weight: bold;
+  color: black;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: #1A4E9C;
+}
+
+article {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 30px;
+ /* margin-top: -60px;*/
+  color: black;
+}
+
+/*
 h1  {
   margin: 0px 50px 10px 5px;
   font-family: verdana;
@@ -10,9 +64,9 @@ h1  {
   color: white
 }
 header {
-/*background-color: #730504*/
-}
-h3{
+background-color: #730504;
+}*/
+/*h3{
   padding-left: 10px;
   font-family: verdana;
   width: 30%;
@@ -37,8 +91,8 @@ ul>li> a:hover{
 background:#08c;
 color:#fff;
 }
-
-div {
+*/
+/*div {
   margin: auto;
   margin-top: 100px;
   border: 2px solid black;
@@ -48,10 +102,10 @@ div {
   border-color: black;
   text-align: center;
   font-size: 30px;
-}
-a href {
+}*/
+/*a href {
   margin-top: 10px;
-}
-div:hover{
+}*/
+/*div:hover{
 background:black;
-}
+}*/
