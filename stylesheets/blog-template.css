@@ -3,14 +3,18 @@
  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-30.jpg");
 }
 #header {
-  font-family: verdana;
     position: relative;
     height: 80px;
     width: 100%;
-
-    z-index: 100;
-  color: white;
-  text-decoration: none;
+    font-size: 18px;
+    font-family: verdana;
+    /*background: #F4F4F7;*/
+   /* color: black;*/
+    /*border-bottom-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;*/
+  /*  z-index: 100;*/
+  /*  opacity: 100;*/
 }
 #left {
   float: left;
