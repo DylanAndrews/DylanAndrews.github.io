@@ -3,13 +3,14 @@
  background-image: url("https://newevolutiondesigns.com/images/freebies/black-wallpaper-30.jpg");
 }
 #header {
-    font-family: verdana;
+  font-family: verdana;
     position: relative;
     height: 80px;
     width: 100%;
+
     z-index: 100;
-    color: white;
-    text-decoration: none;
+  color: white;
+  text-decoration: none;
 }
 #left {
   float: left;
@@ -19,6 +20,7 @@
   padding: 10px;
   color: white;
 }
+
 li:hover {
   color: #1A4E9C;
 }
@@ -39,7 +41,9 @@ a {
 a:hover {
   color: #1A4E9C;
 }
-
+/*body {
+  background-color:black;
+}*/
 main {
   margin-left: 50px;
   margin-right: 50px;
@@ -65,11 +69,17 @@ p {
   color: white;
   margin-top: 50px;
   width: 100%;
+  background-color: black;
   margin-left: auto;
   margin-right: auto;
-
+  /*opacity: 100%;*/
+  z-index: 100;
  }
 code {
   background-color: yellow;
   color:white;
 }
+/*img {
+  width: 600px;
+  height: 500px;
+}*/
