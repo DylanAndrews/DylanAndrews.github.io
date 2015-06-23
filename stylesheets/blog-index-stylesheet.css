@@ -4,26 +4,29 @@
     border: none;
     font-family: verdana;
     background-size: cover;
+    color: white;
 }
 body {
-  background-image: url("http://www.yosemitepark.com/Images/home-img-01.jpg");
+  background-image: url("https://hdwallpapers.cat/wallpaper/gorilla_face_primates_animals_hd-wallpaper-402642.jpg");
 }
 #header {
     position: fixed;
     height: 80px;
     width: 100%;
-    background: #F4F4F7;
    /* color: black;*/
     /*border-bottom-color: #ffffff;
     border-bottom-style: solid;
     border-bottom-width: 1px;*/
     z-index: 100;
   /*  opacity: 100;*/
-  color: black;
+  color: white;
   text-decoration: none;
 }
 #left {
   float: left;
+}
+li :hover {
+  color: #1A4E9C;
 }
 #right {
   float: right;
@@ -36,15 +39,16 @@ nav ul li {
   display: inline;
   margin: 30px;
   font-weight: bold;
-  color: black;
+  color: white;
 }
 a {
-  color: black;
+  color: white;
   text-decoration: none;
 }
-a:visited {
+/*a:visited {
   color: black;
-}
+
+}*/
 
 a:hover {
   color: #1A4E9C;
@@ -56,6 +60,13 @@ a:hover {
   font-size: 20px;
  /* margin-top: -60px;*/
   color: #7A7979;
+  margin-left: auto;
+  margin-right: auto;
+  font-weight: bold
+
+}
+p {
+    line-height: 1.5;
 }
 .blog a{
   color: white;
