@@ -3,28 +3,34 @@ layout: default
 ---
 
 <div class="home">
-  {%- if page.title -%}
-    <h1 class="page-heading">{{ page.title }}</h1>
-  {%- endif -%}
-
-  {{ content }}
-
   {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+    <h2 class="post-list-heading">{{ page.list_title }}</h2>
     <ul class="post-list">
       {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
+        <header class="post-header">
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}
           </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-          {{ post.excerpt }}
+          <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+              {{ post.date | date: date_format }}
+            </time>
+            {%- if page.author -%}
+              • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author | escape }}</span></span>
+            {%- endif -%}</p>
+        </header>
+
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ post.content }}
+        </div>
+
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
         {%- endif -%}
-      </li>
+
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+      </article>
       {%- endfor -%}
     </ul>
   {%- endif -%}
