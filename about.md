@@ -6,6 +6,12 @@ permalink: /about/
 
 I'm a curious Web Developer based in Nashville, TN, and I spend my working hours at [GoNoodle](https://www.gonoodle.com/) writing Ruby and Javascript to get kids moving (it's awesome!).
 
+#### Favorite Podcasts
+* [Waking Up](https://samharris.org/podcast/) - Sam Harris
+* [Econ Talk](http://www.econtalk.org/) - Russ Roberts
+* [Context](https://bradharris.com/) - Brad Harris
+* [The Lowe Post](http://www.espn.com/espnradio/podcast/archive/_/id/10528553) - Zach Lowe
+
 #### Book Recommendations
 
 ##### Non Fiction
@@ -17,8 +23,6 @@ I'm a curious Web Developer based in Nashville, TN, and I spend my working hours
 * [Undaunted Courage](https://www.goodreads.com/book/show/45546.Undaunted_Courage)
 * [Titan: The Life of John D. Rockefeller](https://www.goodreads.com/book/show/16121.Titan?ac=1&from_search=true)
 * [Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue](https://www.goodreads.com/book/show/36681909-conspiracy)
-
-
 
 ##### Fiction
 * [The City and The Stars](https://www.goodreads.com/book/show/36313159-the-city-and-the-stars)
