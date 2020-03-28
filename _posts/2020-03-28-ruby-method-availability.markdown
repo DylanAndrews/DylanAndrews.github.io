@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ruby Method Availability"
-date: 2020-02-17 00:00:00-0600
+date: 2020-03-28 00:00:00-0600
 categories: jekyll update
 ---
 I learned a great ruby tip this week for getting a specific list of methods available on an object, so I thought I'd make a post about it. The first part of the post explains the tip, and then the second part goes into how I recently used it.
