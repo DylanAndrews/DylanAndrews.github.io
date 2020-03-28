@@ -10,10 +10,10 @@ I learned a great ruby tip this week for getting a specific list of methods avai
 Is there a way to quickly see a list of all of the methods available for a ruby object that does not include the methods that object inherits from the `Object` class?
 
 ### Answer
-Yes. `{your_object. methods} - Object.methods`
+Yes. `{your_object.methods} - Object.methods`
 
 ### Details
-I have been using the [methods](https://ruby-doc.org/core-2.7.0/Object.html#method-i-methods) method for a long time and have always found it a bit annoying that the result of calling `{your_object.methods}` always includes the methods on the `Object` class. It makes perfect sense why this is the case, but typically when I am in search of available methods I only care about seeing the methods that are specific to the object I am troubleshooting. So, to get around this we can leverage ruby’s [-](https://ruby-doc.org/core-2.7.0/Array.html#method-i-2D) method to and get a list that is not polluted with the methods we don’t care about.
+I have been using the [methods](https://ruby-doc.org/core-2.7.0/Object.html#method-i-methods) method for a long time and have always found it a bit annoying that the result of calling `{your_object.methods}` always includes the methods on the `Object` class. It makes perfect sense why this is the case, but typically when I am in search of available methods I only care about seeing the methods that are specific to the object I am troubleshooting. So, to get around this we can leverage ruby’s [-](https://ruby-doc.org/core-2.7.0/Array.html#method-i-2D) method to get a list that is not polluted with the methods we don’t care about.
 
 ### Bug I Was Working On
 While the list of situations where this tip could come in handy is endless, I wanted to quickly explain how I used it this week so people can see an example.
