@@ -7,7 +7,7 @@ categories: jekyll update
 I was recently tasked with upgrading our codebase at GoNoodle from Rails `5.2.3` to `6.0.1` , and I wanted to take some time to document my experience and share some tips that others might find helpful. My main objective here is to articulate what I learned, and to draw attention to any hang ups I ran into that were not directly addressed in the Rails migration [guide](https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#upgrading-from-rails-5-2-to-rails-6-0). It is worth noting that because this was my first time doing a major update, some of what I mention will be version update agnostic and will just be general Rails upgrade tips, but the rest will be specific to this version upgrade.
 
 
-## Setting Up Multi Database Support
+### Setting Up Multi Database Support
 The multi database support in Rails 6 is something we were really excited about, and while the [docs]([Multiple Databases with Active Record — Ruby on Rails Guides](https://guides.rubyonrails.org/active_record_multiple_databases.html)) for setting this up were by no means bad, there were some things that were left a little unclear. Here are some of my findings.
 
 #### Handling automatic connection switching
@@ -41,7 +41,7 @@ Once we were confident in the answers to these questions we updated our code by 
 
 Doing `rails db:rollback` will rollback your most recent migration (these migration files are in `db/migrate` in your primary database, but if you want to rollback a migration in another database (these migration files are in `db/[name_of_your_db]_migrate`) you need to do `rails db:migrate:down:[name_of_your_db] VERSION=[migration_version_number]`.
 
-## manifest.js
+### manifest.js
 
 After successfully updating the Rails version I got the following error when trying to run the app locally. `Expected to find a manifest file in app/assets/config/manifest.js`. To handle this I had to do some digging and found the following [post](https://www.schneems.com/2017/11/22/self-hosted-config-introducing-the-sprockets-manifestjs/) by Richard Schneeman, which directed me to do the following.
 
@@ -53,7 +53,7 @@ After successfully updating the Rails version I got the following error when try
 ```
 2. Move `Rails.application.config.assets.precompile +=` from `config/initializers/assets.rb` to new `app/assets/config/manifest.js` file.
 
-## Updating Gems
+### Updating Gems
 The first thing I did to get started was to update the Rails version in the gemfile and run `bundle update rails`, and this resulted in the following error. Note that while my subsequent explanation will apply to the `actionpack`  scenario listed below, the core way to address this error applies to all gems.
 ```
 Bundler could not find compatible versions for gem "actionpack":

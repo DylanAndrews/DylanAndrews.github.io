@@ -6,14 +6,14 @@ categories: jekyll update
 ---
 Throughout my career as a Rails developer there have been a number of times that using Rails [callbacks](https://guides.rubyonRails.org/active_record_callbacks.html) for debugging purposes has come in handy and saved me a ton of time and frustration, so I thought I'd take some time to share this approach. To put it simply, if you're seeing any odd behavior relating to a Rails object being created, updated, or destroyed, this may be a way for you to easily get to the bottom of what is going on. Some might argue this approach is a bit hacky, but when it comes to debugging I think anything goes as long as it gives you the right answers.
 
-## When To Use Callbacks for Debugging
+### When To Use Callbacks for Debugging
  While this technique could be used for any of the Rails callbacks, I have mostly used it in the following contexts.
 
 * A Rails object is unexpectedly being created (use `after_create` for debugging)
 * A Rails object is unexpectedly being updated (use `after_update` for debugging)
 * A Rails object is unexpectedly being destroyed (use `after_destroy` for debugging)
 
-## How To Use Callbacks for Debugging
+### How To Use Callbacks for Debugging
 The implementation of this is relatively simple; if one the aforementioned unexpected behaviors is occurring, put the related callback in the correct model with a `binding.pry` (see [pry](https://github.com/pry/pry)) and use `caller` (see [caller](https://ruby-doc.org/core-2.3.1/Kernel.html#method-i-caller)) to help identify the source of the unexpected behavior. Let’s look at a simple example.
 
 #### Models
