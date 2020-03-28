@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Ruby Method Availability"
+title: "Finding Methods in Ruby"
 date: 2020-03-28 00:00:00-0600
 categories: jekyll update
 ---
@@ -15,17 +15,17 @@ Yes. `{your_object.methods} - Object.methods`
 ### Details
 I have been using the [methods](https://ruby-doc.org/core-2.7.0/Object.html#method-i-methods) method for a long time and have always found it a bit annoying that the result of calling `{your_object.methods}` always includes the methods on the `Object` class. It makes perfect sense why this is the case, but typically when I am in search of available methods I only care about seeing the methods that are specific to the object I am troubleshooting. So, to get around this we can leverage ruby’s [-](https://ruby-doc.org/core-2.7.0/Array.html#method-i-2D) method to get a list that is not polluted with the methods we don’t care about.
 
-### Bug I Was Working On
+### The Bug I Was Working On
 While the list of situations where this tip could come in handy is endless, I wanted to quickly explain how I used it this week so people can see an example.
 
-At GoNoodle we’ve recently been betting a lot of errors while uploading users to [CloudSearch](https://aws.amazon.com/cloudsearch/). It’s been a bit tricky to debug because it happens intermittently with no clearly discernible pattern (the best type of bug), so instead of endlessly spinning my wheels on the issue I decided to leverage our [BugSnag](https://www.bugsnag.com/) integration. The method looked like this before I added my debug code.
+At GoNoodle we’ve recently been betting a lot of errors while uploading users to [CloudSearch](https://aws.amazon.com/cloudsearch/). It’s been a bit tricky to debug because it happens intermittently with no clearly discernible pattern (the best type of bug), so instead of endlessly spinning my wheels on the issue I decided to leverage our [BugSnag](https://www.bugsnag.com/) integration. The method looked like this before I added my debug code:
 
 ```
   def upload_documents(documents)
     @client.upload_documents(documents: documents.to_json, content_type: 'application/json')
   end
 ```
-and afterwards it looked like this.
+and afterwards it looked like this:
 ```
   def upload_documents(documents)
     begin
