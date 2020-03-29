@@ -31,6 +31,14 @@ minima:
     twitter: dylan1andrews
     github: DylanAndrews
     linkedin: dylanandr
+
+# Set the image for the Open Graph Protocol
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/ruby_logo.jpg
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
