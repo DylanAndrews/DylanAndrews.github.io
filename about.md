@@ -6,6 +6,12 @@ permalink: /about/
 
 I'm a curious Web Developer based in Nashville, TN, and I spend my working hours at [GoNoodle](https://www.gonoodle.com/) writing Ruby and Javascript to get kids moving (it's awesome!).
 
+#### 2019 Rails Conf Lightning Talk
+A quick lightning talk about the handy [bisect](https://relishapp.com/rspec/rspec-core/docs/command-line/bisect) command in RSpec. Starts at 1:14:52.
+
+<iframe width="420" height="315" src="https://www.youtube.com/embed/AI5wmnzzBqc?start=4492" frameborder="0" allowfullscreen> </iframe>
+<br/>
+
 #### Favorite Podcasts
 * [Waking Up](https://samharris.org/podcast/) - Sam Harris
 * [Econ Talk](http://www.econtalk.org/) - Russ Roberts
@@ -31,3 +37,9 @@ I'm a curious Web Developer based in Nashville, TN, and I spend my working hours
 * [Of Human Bondage](https://www.goodreads.com/review/list/41883609-dylan-andrews?utf8=%E2%9C%93&shelf=read&title=dylan-andrews&per_page=100)
 * [The Razor's Edge](https://www.goodreads.com/book/show/31196.The_Razor_s_Edge?ac=1&from_search=true)
 * [Child of God](https://www.goodreads.com/search?q=child+of+god)
+
+##### Technical
+* [Practical Object-Oriented Design in Ruby](https://www.goodreads.com/book/show/13507787-practical-object-oriented-design-in-ruby)
+* [The Pragmatic Programmer](https://www.goodreads.com/book/show/4099.The_Pragmatic_Programmer)
+* [Designing Data-Intensive Applications](https://www.goodreads.com/book/show/23463279-designing-data-intensive-applications)
+* [Programming Elixir](https://www.goodreads.com/book/show/17971957-programming-elixir)
