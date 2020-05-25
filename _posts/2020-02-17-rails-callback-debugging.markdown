@@ -2,7 +2,7 @@
 layout: post
 title: "Rails Callback Debugging"
 date: 2020-02-17 00:00:00-0600
-categories: jekyll update
+categories: post
 ---
 Throughout my career as a Rails developer there have been a number of times that using Rails [callbacks](https://guides.rubyonRails.org/active_record_callbacks.html) for debugging purposes has come in handy and saved me a ton of time and frustration, so I thought I'd take some time to share this approach. To put it simply, if you're seeing any odd behavior relating to a Rails object being created, updated, or destroyed, this may be a way for you to easily get to the bottom of what is going on. Some might argue this approach is a bit hacky, but when it comes to debugging I think anything goes as long as it gives you the right answers.
 

@@ -2,7 +2,7 @@
 layout: post
 title: "Rails 6 Upgrade Tips"
 date: 2020-02-02 00:00:00-0600
-categories: jekyll update
+categories: post
 ---
 I was recently tasked with upgrading our codebase at GoNoodle from Rails `5.2.3` to `6.0.1` , and I wanted to take some time to document my experience and share some tips that others might find helpful. My main objective here is to articulate what I learned, and to draw attention to any hang ups I ran into that were not directly addressed in the Rails migration [guide](https://edgeguides.rubyonrails.org/upgrading_ruby_on_rails.html#upgrading-from-rails-5-2-to-rails-6-0). It is worth noting that because this was my first time doing a major update, some of what I mention will be version update agnostic and will just be general Rails upgrade tips, but the rest will be specific to this version upgrade.
 

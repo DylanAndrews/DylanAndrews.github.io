@@ -2,7 +2,7 @@
 layout: post
 title: "Developer Necessities"
 date: 2019-01-21  00:00:00-0600
-categories: jekyll update
+categories: post
 ---
 After giving it some thought, I’ve decided to write a post cataloging the various tools, tips, tricks, and commands that I could not live without. These have been gathered over the past three years, and I know that a list like this would have been invaluable to me when I was first getting started. Luckily I had a lot of great people around me to clue me in to this stuff, but for those who are not so lucky, I hope this post is helpful.
 

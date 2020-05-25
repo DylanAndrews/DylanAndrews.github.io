@@ -2,7 +2,7 @@
 layout: post
 title: "Getting COVID-19 Data With Ruby"
 date: 2020-04-05 00:00:00-0600
-categories: ruby methods
+categories: post ruby methods
 ---
 I’m going to take a slightly different approach with this post and talk about a very cool and timely ruby [gem](https://github.com/siaw23/kovid) called kovid that I recently discovered and contributed to this weekend.
 
