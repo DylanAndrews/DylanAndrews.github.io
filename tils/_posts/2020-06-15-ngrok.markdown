@@ -1,0 +1,8 @@
+---
+layout: post
+title: "ngrok with rails"
+date: 2020-06-15 00:00:00-0600
+categories: ruby til
+---
+
+[ngrok](https://ngrok.com/) is a crucial tool, but in order for it to work with rails you will need to add your ngrok domain to your hosts in your config file. `config.hosts << "your ngrok domain"`. This is something I always forget, so I wanted to create a reminder for myself and others here!
