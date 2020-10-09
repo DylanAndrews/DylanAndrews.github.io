@@ -13,10 +13,10 @@ A quick lightning talk about the handy [bisect](https://relishapp.com/rspec/rspe
 <br/>
 
 #### Favorite Podcasts
-* [Waking Up](https://samharris.org/podcast/) - Sam Harris
 * [Econ Talk](http://www.econtalk.org/) - Russ Roberts
 * [Context](https://bradharris.com/) - Brad Harris
 * [The Lowe Post](http://www.espn.com/espnradio/podcast/archive/_/id/10528553) - Zach Lowe
+* [Bike Shed](https://www.bikeshed.fm/) -Thoughtbot
 
 #### Book Recommendations
 
