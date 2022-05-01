@@ -4,7 +4,10 @@ title: About
 permalink: /about/
 ---
 
-I'm a curious Web Developer based in Nashville, TN, and I spend my working hours at [GoNoodle](https://www.gonoodle.com/) writing Ruby and Javascript to get kids moving (it's awesome!).
+**Location:** Nashville, TN\
+**Current Company:** [Stripe](https://stripe.com)\
+**Interests:** surfing, snowboarding, chess, basketball, and drums (my former profession) mostly
+
 
 #### 2019 Rails Conf Lightning Talk
 A quick lightning talk about the handy [bisect](https://relishapp.com/rspec/rspec-core/docs/command-line/bisect) command in RSpec. Starts at 1:14:52.
